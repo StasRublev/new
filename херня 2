@@ -60,8 +60,8 @@
 <div class="mid">
     <div class="pagenav">
         <div class="navtext">
-            <p><a href="#1p" class="p">Регистрация на платформе</a></p>
-            <p><a href="#2p" class="p">Запись на курсы</a></p>
+            <p><a href="#1p" class="p">Registration on the platform</a></p>
+            <p><a href="#2p" class="p">Course enrollment</a></p>
             <p><a href="#3p" class="p">Отслеживание прогресса</a></p>
             <p><a href="#4p" class="p">Итоговое тестирование</a></p>
         </div>
