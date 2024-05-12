@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>OpenEdu</title>
+    <title>OpenEdu</title>.
     <link rel="stylesheet" href="OpenEduStyles.css">
 </head>
 <body>
@@ -60,161 +60,161 @@
 <div class="mid">
     <div class="pagenav">
         <div class="navtext">
-            <p><a href="#1p" class="p">Registration on the platform</a></p>
-            <p><a href="#2p" class="p">Course enrollment</a></p>
-            <p><a href="#3p" class="p">Отслеживание прогресса</a></p>
-            <p><a href="#4p" class="p">Итоговое тестирование</a></p>
+            <p><a href="#1p" class="p">Register on the platform</a></p>
+            <p><a href="#2p" class="p">Signup for courses</a></p>
+            <p><a href="#3p" class="p">Tracking progress</a></p>
+            <p><a href="#4p" class="p">Summary Testing</a></p>
         </div>
     </div>
     <div class="info">
         <div class="infotext">
             <div id="1p" class="text 1t">
-                <h1>Регистрация на платформе</h1>
+                <h1>Registration on the platform</h1>
                 <div class="pict">
-                    <p>Самостоятельно зарегистрируйтесь на сайте <a href="https://openedu.ru">openedu.ru<a>, после чего перейдите в раздел «Профиль».</p>
+                    <p>Self-register at <a href="https://openedu.ru">openedu.ru<a>, then go to the "Profile" section.</p>
                     <img src="openedu/1.png" width="400">
                 </div>
                 <div class="pict">
                     <img src="openedu/2.png" width="400">
-                    <p>Укажите фамилию имя и отчество так, как они указаны у вас в студенческом билете. Адрес электронной почты должен принадлежать домену urfu.me.
-                        <span class="bold">!Важно! Если у вас уже есть учетная запись на openedu с личной электронной почтой из другого домена, ее нужно отредактировать, указав почту из домена urfu.me.</span></p>
+                    <p>Provide your last name and middle name as they appear on your student ID card. The e-mail address must belong to the urfu.me domain.
+                        <span class="bold">!Important! If you already have an account on openedu with a personal email from another domain, you need to edit it to include an email from the urfu.me domain.</span></p>
                 </div>
                 <div class="pict">
-                    <p>Отметьте, что вы являетесь студентом Уральского федерального университета. Нажмите на кнопку «Сохранить». Регистрация на платформе завершена.</p>
+                    <p>Check that you are a student of Ural Federal University. Click on the "Save" button. Registration on the platform is complete.</p>
                     <img src="openedu/3.png" width="400">
                 </div>
             </div>
             <div id="2p" class="text 2t">
-                <h1>Запись на курсы</h1>
-                <p>Для записи на курс, воспользуйтесь каталогом курсов, если в таблице не указано, что запись на него производят сотрудники вуза-партнёра, то вам необходимо самостоятельно записаться на данный онлайн-курс.
-                    <span class="bold">!Если же такая информация присутствует, то самостоятельно записываться не нужно! Если по прошествии нескольких недель с момента начала курса вас все еще не добавили в группу, напишите письмо на адрес <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. Укажите свои ФИО, номер группы, вуз, электронную почту и название курса. Не забудьте описать возникшую проблему.</span>
+                <h1>Course enrollment</h1>.
+                <p>To enroll in a course, use the course catalog; if the table does not indicate that enrollment is handled by the partner institution's staff, you must enroll in the online course yourself.
+                    <span class="bold">!If this information is present, there is no need to enroll on your own! If after several weeks from the start of the course you still have not been added to the group, write an e-mail to <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. Include your full name, group number, university, email and course title. Do not forget to describe the problem you are having.</span>
                 </p>
-                <h3>Первый способ</h3>
+                <h3>The First Way</h3>.
                 <div class="pict">
-                    <p>Записаться на курс можно через каталог курсов, нажав на ссылку напротив названия. На открывшейся странице нажмите на кнопку «Записаться».</p>
+                    <p>You can enroll in a course through the course catalog by clicking on the link next to the course title. On the page that opens, click on the "Enroll" button.</p>
                     <img src="openedu/4.png" width="400">
                 </div>
-                <h3>Второй способ</h3>
+                <h3>The second way</h3>.
                 <div class="pict">
-                    <p>Для записи на выбранный курс вы также можете воспользоваться удобной системой поиска на сайте <a href = "openedu.ru">openedu.ru</a>.</p>
+                    <p>You can also use the convenient search system on the <a href = "openedu.ru">openedu.ru</a> website to enroll in the course of your choice.</p>
                     <img src="openedu/5.png" width="400">
                 </div>
                 <div class="pict">
                     <img src="openedu/6.png" width="400">
-                    <p>Выбираем нужный курс.</p>
+                    <p>Select the course you want.</p>
                 </div>
                 <div class="pict">
-                    <p>На открывшейся странице нажмите на кнопку «Записаться».</p>
+                    <p>On the page that opens, click on the "Enroll" button.</p>
                     <img src="openedu/7.png" width="400">
                 </div>
-                <p class="bold">!Учтите, что срок записи на курс и срок выполнения некоторых заданий ограничены, поэтому вам нужно записаться в течение первой недели семестра, чтобы успеть выполнить все задания и получить зачет по курсу! После завершения записи, курс будет не доступен для добавления новых слушателей.
-                    Если вы не можете найти нужный курс или у вас возникли трудности с регистрацией, отправьте электронное письмо на адрес <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. В письме укажите свои ФИО, номер группы, вуз, электронную почту и название курса. Не забудьте описать возникшую проблему.
+                <p class="bold">!Please note that the enrollment period for the course and the deadline for some assignments is limited, so you must enroll during the first week of the semester to complete all assignments and receive credit for the course! Once enrollment is complete, the course will not be available to add new students.
+                    If you cannot find the course you are looking for or have difficulties with registration, send an e-mail to <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. In your e-mail, please include your full name, group number, university, e-mail and course title. Don't forget to describe the problem you are having.
                 </p>
             </div>
             <div id="3p" class="text 3t">
-                <h1>Отслеживание прогресса</h1>
+                <h1>Tracking Progress</h1>.
                 <div class="pict">
-                    <p>Нажмите на кнопку «Мой профиль», после перейдите в раздел «Мои курсы».</p>
+                    <p>Click on "My Profile," then go to "My Courses."</p>
                     <img src="openedu/8.png" width="400">
                 </div>
                 <div class="pict">
                     <img src="openedu/9.png" width="400">
-                    <p>Нажмите на кнопку «Перейти к материалам курса». <span class="bold">Нажмите на кнопку «Перейти к материалам курса».
-                        !Обратите внимание, после того, как вы записались на курс, сотрудники технической поддержки добавят вас в нужную группу. После этого вы получите доступ ко всем материалам курса, кроме итогового контроля! Если данная группа не указана, то вам необходимо написать письмо по адресу <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. В письме укажите ваше ФИО, академическую группу, название курса, почту, с которой зарегистрированы на openedu.ru и описание проблемы!
+                    <p>Click the "Go to course materials" button. <span class="bold">Click the "Go to course materials" button.
+                        !Please note, once you have enrolled in the course, the technical support staff will add you to the correct group. After that you will get access to all course materials except for the final control! If this group is not specified, you should write an e-mail to <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. In your letter, please specify your full name, academic group, course name, mail with which you are registered on openedu.ru and a description of the problem!
                         </span>
                     </p>
                 </div>
                 <div class="pict">
-                    <p>На курсе вам предстоит изучить лекционный материал, выполнить контрольно-оценочные задания и сдать итоговый контроль (прокторинг).</p>
+                    <p>In the course, you will study the lecture material, complete assessment tasks and pass a final control (proctoring).</p>
                     <img src="openedu/10.png" width="400">
                 </div>
                 <div class="pict">
                     <img src="openedu/11.png" width="400">
-                    <p>Помните, что выполнение контрольно-оценочных заданий ограничено по времени. Это значит, что к дате закрытия заданий, указанной на странице «График открытия материалов», у вас должно быть набрано не менее 40% по каждому типу заданий в столбце «Оценка».
-                        После истечения сроков сдачи заданий, их выполнение будет недоступно. Проверить количество баллов, которое вы набрали, можно в разделе «Прогресс».
+                    <p>Remember that graded assignments are time-limited. This means that you must have a score of at least 40% on each type of assignment in the grade column by the closing date listed on the Open Materials Schedule page.
+                        After the deadlines have passed, you will not be able to complete your assignments. You can check the number of points you have earned in the "Progress" section.
                     </p>
                 </div>
                 <div class="pict">
-                    <p>Если в процессе изучения онлайн-курса будут возникать вопросы, их всегда можно задать в разделе «Обсуждения». Формулируйте вопрос подробно, указывая раздел, тему и блок курса, в котором возник вопрос.</p>
+                    <p>If you have any questions while taking the online course, you can always ask them in the Discussions section. Please be detailed, including the section, topic, and unit of the course in which the question arose.</p>
                     <img src="openedu/12.png" width="400">
                 </div>
-                <p>Итоговая оценка за курс складывается из трёх составляющих: прогресс по курсу, балл за экзамен и статус прокторинга. Статус прокторинга можно узнать на странице «Прогресс».</p>
+                <p>The final course grade is made up of three components: course progress, exam score, and proctoring status. The proctoring status can be found on the Progress page.
             </div>
             <div id="4p" class="text 4t">
-                <h1>Итоговое тестирование</h1>
-                <p>Сроки сдачи итогового контроля определяются приказом на сессию. График проведения экзаменов и документ с приказом публикуется за 2 недели до начала онлайн-сессии. <a href = "https://inf-online.urfu.ru/ru/grafik-ehkzamenov/">График проведения экзаменов</a>.</p>
-                <h3>Итоговое тестирование по курсам вузов-партнеров</h3>
+                <h1>Summary testing</h1>.
+                <p>The deadlines for the final control are determined by the order for the session. The schedule of exams and the document with the order is published 2 weeks before the start of the online session. <a href = "https://inf-online.urfu.ru/ru/grafik-ehkzamenov/">Exam schedule</a>.</p>
+                <h3>Summary testing on courses from partner universities</h3>
                 <ol>
-                    <ul><a href ="https://openedu.ru/proctoring-rules-itmoproctor/">Инструкция</a> по прохождению аттестаций по курсам ИТМО.</ul>
-                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Instrukcija_MGU_vesna_2022.docx">Инструкция</a> по прохождению аттестаций по курсам МГУ.</ul>
-                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Examus_Instrukcija_Asinkhronnyi_proktoring.pdf">Инструкция</a> по прохождению аттестаций по курсам МИСиС.</ul>
-                    <ul><a href="https://openedu.ru/proctoring-manual-itmoproctor/">Инструкция</a> по прохождению аттестаций по курсам МИФИ.</ul>
-                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Examus_Instrukcija_Asinkhronnyi_proktoring.pdf">Инструкция</a> по прохождению аттестаций по курсам МФТИ.</ul>
-                    <ul><a href="https://elearning.hse.ru/examsertsforuni">Инструкция</a> по прохождению аттестаций по курсам НИУ ВШЭ.</ul>
-                    <ul><a href="https://openedu.ru/proctoring-manual-itmoproctor/">Инструкция</a> по прохождению аттестаций по курсам СПбПУ (Политеха).</ul>
-                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/examus_spbgu.pdf">Инструкция</a> по прохождению аттестаций по курсам СПбГУ.</ul>
-                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/examus_async_tumgu.pdf">Инструкция</a> по прохождению аттестаций по курсам ТюмГУ.</ul>
-                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Instrukcija_TGU_asinkhron.pdf">Инструкция</a> по прохождению аттестаций по курсам ТГУ.</ul>
+                    <ul><a href ="https://openedu.ru/proctoring-rules-itmoproctor/">Instructions</a> for passing ITMO course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Instrukcija_MGU_vesna_2022.docx">Instructions</a> for passing MSU course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Examus_Instrukcija_Asinkhronnyi_proktoring.pdf">Instruction</a> on passing the certification of MISIS courses.</ul>
+                    <ul><a href="https://openedu.ru/proctoring-manual-itmoproctor/">Instructions</a> for passing MIFI course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Examus_Instrukcija_Asinkhronnyi_proktoring.pdf">Instruction</a> on passing the MIPT course evaluations.</ul>
+                    <ul><a href="https://elearning.hse.ru/examsertsforuni">Instruction</a> on passing the certification on the courses of the National Research University Higher School of Economics.</ul>
+                    <ul><a href="https://openedu.ru/proctoring-manual-itmoproctor/">Instructions</a> for passing the certification of SPbPU (Politech) courses.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/examus_spbgu.pdf">Instructions</a> for passing the SPBSU course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/examus_async_tumgu.pdf">Instruction</a> for passing the TyumSU course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Instrukcija_TGU_asinkhron.pdf">Instruction</a> for TSU course evaluations.</ul>
                 </ol>
-                <h3>Итоговый контроль по курсам УрФУ</h3>
-                <p>Для успешного прохождения итогового тестирования вам необходимо установить приложение ITMOproctor последней версии и ознакомиться с инструкцией по его использованию:</p>
-                <p>Ссылка на приложение: <a href="https://itmoproctor.openedu.ru/dist/">тык!</a>;</p>
-                <p>Ссылка на инструкцию: <a href="https://openedu.ru/proctoring-manual-itmoproctor/">тык!</a>;</p>
-                <p><a href="https://vk.com/video-196169577_456239027">Видеоинструкция</a> записи на итоговый контроль УрФУ.</p>
-                <h5>Для успешной сдачи итогового тестирования необходимо знать следующее:</h5>
+                <h3>Summary control on UrFU courses</h3>
+                <p>To successfully pass the final test, you need to install the latest version of the ITMOproctor app and read the instructions for using it:</p>
+                <p>Link to the app: <a href="https://itmoproctor.openedu.ru/dist/">youk!</a>;</p>
+                <p>Link to instructions: <a href="https://openedu.ru/proctoring-manual-itmoproctor/">knock!"</a>;</p>
+                <p><a href="https://vk.com/video-196169577_456239027">Video instructions</a> for enrolling in the UrFU final control.</p>
+                <h5>To pass the final test, you need to know the following:</h5>
                 <div class="pict">
-                    <p>Перед началом обучения убедитесь, что вы не принадлежите к группе “по умолчанию”. Информация о вашей группе доступна в карточке курса на сайте <a href="http://openedu.ru/">openedu.ru</a> в разделе “Мои курсы”.</p>
+                    <p>Before you start your course, make sure you do not belong to the "default" group. Information about your group is available in the course card on the <a href="http://openedu.ru/">openedu.ru</a> website in the "My Courses" section.</p>
                     <img src="openedu/13.png" width="400">
                 </div>
                 <div class="pict">
                     <img src="openedu/14.png" width="400">
-                    <p>Убедитесь, что срок сдачи итогового тестирования по вашему курсу еще не истек.<a href="https://inf-online.urfu.ru/ru/grafik-ehkzamenov/">График проведения экзаменов</a>. Студенты УрФУ должны сдавать «Итоговый контроль (УрФУ)».</p>
+                    <p>Make sure the deadline for the final test in your course has not yet passed.<a href="https://inf-online.urfu.ru/ru/grafik-ehkzamenov/">Exam Schedule</a>. UrFU students are required to take the "Final Exam (UrFU)."</p>
                 </div>
                 <div class="pict">
-                    <p>Количество слотов для записи на тестирование ограничено. Дополнительных слотов и продления сроков сдачи итогового контроля в рамках сессии не предусмотрено.
-                        <span class="bold">!Не откладывайте запись на последние дни!</span> При записи на слот в приложении ITMOproctor указано местное время с учетом вашего местоположения. Если вы меняли время на компьютере и теперь оно не совпадает с вашим местным временем, то ориентироваться необходимо на время, которое отображается в левом нижнем углу приложения ITMOproctor. Запись и сдача проходит в соответствии с ним.</p>
+                    <p>The number of slots for test enrollment is limited. There are no additional slots or extensions to the deadlines for the final test within the session.
+                        <span class="bold">!Don't put off your appointment until the last days! </span> When you sign up for a slot, the ITMOproctor app shows the local time based on your location. If you have changed the time on your computer and now it does not match your local time, you should refer to the time displayed in the lower left corner of the ITMOproctor app. Recording and delivery will take place in accordance with it.
                     <img src="openedu/15.png" width="400">
                 </div>
                 <div class="pict">
                     <img src="openedu/16.png" width="400">
-                    <p>Перед началом итогового тестирования убедитесь, что ваша веб-камера и микрофон работают корректно. Проверьте качество видео и звука в приложении ITMOproctor (нажмите на “Проверка” в меню интерфейса). Ваш голос должен быть четким, а лицо - различимым на видео. <span class="bold">!В случае, если ваш микрофон идёт в составе гарнитуры, НЕЛЬЗЯ надевать наушники во время сдачи Итогового контроля!</span></p>
+                    <p>Before starting the final test, make sure your webcam and microphone are working correctly. Check the video and audio quality in the ITMOproctor app (click on "Test" in the interface menu). Your voice should be clear and your face should be distinguishable in the video. <span class="bold">!If your microphone is part of a headset, DO NOT wear headphones during the Final Exam! </span></p>
                 </div>
                 <div class="proctorinfo">
-                    <p>Проверьте свои персональные данные в<a href="https://sso.openedu.ru/realms/openedu/account/">профиле</a>. Они должны совпадать с данными студенческого билета. В ITMOproctor необходимо будет сфотографировать документ (студенческий билет) или загрузить заранее сделанное фото документа.</p>
-                    <p>Обратите внимание, что в вашем профиле должен быть указан корпоративный адрес электронной почты студента в домене @urfu.me. В случае, если будет указан иной почтовый адрес, оценка за экзамен и курс в целом выставлена не будет.</p>
-                    <p>Во время демонстрации рабочего пространства:
+                    <p>Check your personal details in<a href="https://sso.openedu.ru/realms/openedu/account/">profile</a>. They must match your student ID. In ITMOproctor you will need to take a photo of the document (student ID card) or upload a pre-made photo of the document.</p>
+                    <p>Please note that your profile must include the student's corporate email address in the @urfu.me domain. If you provide a different email address, you will not receive a grade for the exam or the course as a whole.</p> <p>Any other email address will be used.
+                    <p>In a workspace demonstration:
                         <ol>
-                            <ul>Покажите поверхность, на которой находится ваш компьютер или ноутбук.</ul>
-                            <ul>Используйте зеркало, чтобы продемонстрировать экран вашего компьютера и пространство вокруг него.</ul>
-                            <ul>При наличии второго монитора, показать, что он отключен от компьютера и выключен.</ul>
-                            <ul>Пространство вокруг рабочего места, чтобы убедиться в отсутствии посторонних людей.</ul>
-                            <ul>Если камера встроена, возможно использовать зеркало, с помощью которого показать можно показать окружающее пространство.</ul>
+                            <ul>Show the surface on which your computer or laptop sits.</ul>
+                            <ul>Use a mirror to show off your computer screen and the space around it.</ul>.
+                            <ul>If there is a second monitor, show that it is disconnected from the computer and turned off.</ul>
+                            <ul>Space around the workstation to make sure there are no unauthorized people.</ul>
+                            <ul>If the camera is built in, it is possible to use a mirror that can be used to show the surroundings.</ul>
                         </ol>
                     </p>
-                    <p>Экзамен проходит в асинхронном режиме. Проверка тестирования может занять до 5 рабочих дней.
-                        В случае отсутствия технической возможности сдачи итогового контроля из дома вам необходимо заранее обратиться в дирекцию вашего института с просьбой предоставить рабочее место, удовлетворяющее условиям прохождения прокторинга.
+                    <p>The exam is administered asynchronously. It may take up to 5 business days to validate the test.
+                        If it is not technically possible to take the final control from home, you should contact the directorate of your institute in advance with a request to provide a workplace that meets the conditions for passing the proctoring.
                     </p>
-                    <p>Обратите внимание:
+                    <p>Please note:
                         <ol>
-                            <ul>Студент обязан не покидать зону видимости веб-камеры во время тестирования.</ul>
-                            <ul>Микрофон во время испытания не должен быть отключен, а его чувствительность должна быть в пределах нормы.</ul>
-                            <ul>Студент не имеет права прибегать к помощи третьих лиц во время тестирования.</ul>
-                            <ul>Студент не имеет права предоставлять доступ к компьютеру сторонним лицам во время тестирования. Все программы, способные записывать и транслировать происходящее на рабочем столе, должны быть выключены.</ul>
-                            <ul>Студент не имеет права во время тестирования: вступать в разговоры с третьими лицами, проговаривать вопросы вслух, использовать справочные материалы (книги, шпаргалки, записи, материалы курса, не находящиеся на странице с тестированием), использовать сотовые телефоны, пейджеры, калькуляторы, планшеты, наушники, сверять ответы с изменением прогресса.</ul>
-                            <ul>Студент соглашается, что систематический отвод взгляда на край монитора/за пределы экрана, может быть расценен как использование дополнительных материалов.</ul>
+                            <ul>It is the student's responsibility not to leave the webcam's line of sight during testing.</ul>
+                            <ul>The microphone shall not be switched off during the test and its sensitivity shall be within normal limits.</ul>
+                            <ul>The student may not use the assistance of third parties during testing.</ul>
+                            <ul>The student may not give access to the computer to outside parties during testing. All programs capable of recording and broadcasting what is happening on the desktop must be turned off.</ul>.
+                            <ul>Students may not: engage in conversations with third parties, speak questions aloud, use reference materials (books, cheat sheets, notes, course materials not on the test page), use cell phones, pagers, calculators, tablets, headphones, check answers against progress changes.</ul>.
+                            <ul>The student agrees that systematic averted gaze to the edge of the monitor/beyond the screen may be considered as use of supplementary materials.</ul>.
                         </ol>
                     </p>
-                    <p>Студентам допускается:
+                    <p>Students are allowed:
                         <ol>
-                            <ul>Использование только компьютера, на котором идет прохождение тестирования.</ul>
-                            <ul>При прохождении тестирования по техническим предметам использовать инженерный калькулятор, встроенного в операционную систему (Пуск > Калькулятор).</ul>
-                            <ul>Если в рамках курса разрешено использовать черновик, то перед началом экзамена необходимо продемонстрировать на камеру что он чист. По окончании экзамена - что на черновике не записаны вопросы итогового контроля.</ul>
-                            <ul>В случае использования гарнитуры в качестве микрофона запрещено надевать наушники. Включенная гарнитура должна располагаться на столе рядом с клавиатурой.</ul>
-                            <ul>Иностранным студентам разрешается использование переводчика (только <a href="translate.google.com">translate.google.com</a> или <a href="translate.yandex.ru">translate.yandex.ru</a>) на соседней вкладке во время прохождения итогового контроля.</ul>
+                            <ul>Use only the computer on which the test is being taken.</ul>
+                            <ul>When taking tests in technical subjects, use the engineering calculator built into the operating system (Start > Calculator).</ul>
+                            <ul>If a draft is allowed to be used in the course, it must be demonstrated to the camera before the exam that it is clean. At the end of the exam, that no final control questions have been written on the draft.
+                            <ul>When using the headset as a microphone, headphones must not be worn. The turned on headset must be placed on the desk next to the keyboard.</ul>
+                            <ul>International students are allowed to use a translator (only <a href="translate.google.com">translate.google.com</a> or <a href="translate.yandex.ru">translate.yandex.ru</a>) on the adjacent tab while taking the final exam.</ul>
                         </ol>
                     </p>
-                    <p>Если тестирование было отклонено проктором, пользователь имеет право запросить дополнительную попытку для сдачи итогового контроля.</p>
-                    <p class="bold">!В случае, если будут выявлены нарушения правил, описанные выше, попытка считается использованной, а тестирование — несданным!</p>
+                    <p>If the test is rejected by the proctor, the user has the right to request an additional attempt to take the final control.</p>
+                    <p class="bold">!In the event that the rule violations described above are found, the attempt is considered used and the test is considered unsuccessful!"</p>
                 </div>
             </div>
         </div>
@@ -226,4 +226,4 @@
     <div class="techsupport"><p>Tech support address:example@mail.com</p></div>
 </div>
 </body>
-</html>
+</html>.
