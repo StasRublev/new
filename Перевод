@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenEdu</title>.
+    <link rel="stylesheet" href="OpenEduStyles.css">
+</head>
+<body>
+<div class="header">
+    <div class="servicelogo"><img src="logo.svg" height="60px" width="200px"></div>
+    <div class="headerbuttons">
+        <button class="headerbutton" onclick="window.location.href='indexeng.html'">Home</button>
+        <button class="headerbutton" onclick="window.location.href='emailregeng.html'">Corporate email</button>
+        <button class="headerbutton" id="OpenEduButton">OpenEdu</button>
+        <button class="headerbutton" onclick="window.location.href='exam1eng.html'">Exam1</button>
+    </div>
+    <div class="hidden" id="OpenEduMenu">
+        <a href="OpenEdueng.html">Instructions</a>
+        <a href="OpenEdutableeng.html">List of courses</a>
+    </div>
+    <div class="search">
+        <input class="search" id="globalsearchInput">
+        <div class="globalSearch" id="blockToGlobalSearch">
+            <div class="globallink hidden">
+                <a href="indexeng.html">Home</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="emailregeng.html">Corporate email registration</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html">OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#1p">Registation on OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#2p">Enrollment in courses - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#3p">Progress Tracking - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#4p">Final test - OpenEdu</a>
+                <p class="hidden">Proctoring</p>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html">exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html#1p">Access to the platform exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html#2p">Final test - exam1</a>
+                <p class="hidden">Proctoring</p>
+            </div>
+        </div>
+    </div>
+    <div class="language"><button class="headerbutton" onclick="window.location.href='OpenEdu.html'">Rus</button></div>
+</div>
+<div class="mid">
+    <div class="pagenav">
+        <div class="navtext">
+            <p><a href="#1p" class="p">Register on the platform</a></p>
+            <p><a href="#2p" class="p">Signup for courses</a></p>
+            <p><a href="#3p" class="p">Tracking progress</a></p>
+            <p><a href="#4p" class="p">Summary Testing</a></p>
+        </div>
+    </div>
+    <div class="info">
+        <div class="infotext">
+            <div id="1p" class="text 1t">
+                <h1>Registration on the platform</h1>
+                <div class="pict">
+                    <p>Self-register at <a href="https://openedu.ru">openedu.ru<a>, then go to the "Profile" section.</p>
+                    <img src="openedu/1.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="openedu/2.png" width="400">
+                    <p>Provide your last name and middle name as they appear on your student ID card. The e-mail address must belong to the urfu.me domain.
+                        <span class="bold">!Important! If you already have an account on openedu with a personal email from another domain, you need to edit it to include an email from the urfu.me domain.</span></p>
+                </div>
+                <div class="pict">
+                    <p>Check that you are a student of Ural Federal University. Click on the "Save" button. Registration on the platform is complete.</p>
+                    <img src="openedu/3.png" width="400">
+                </div>
+            </div>
+            <div id="2p" class="text 2t">
+                <h1>Course enrollment</h1>.
+                <p>To enroll in a course, use the course catalog; if the table does not indicate that enrollment is handled by the partner institution's staff, you must enroll in the online course yourself.
+                    <span class="bold">!If this information is present, there is no need to enroll on your own! If after several weeks from the start of the course you still have not been added to the group, write an e-mail to <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. Include your full name, group number, university, email and course title. Do not forget to describe the problem you are having.</span>
+                </p>
+                <h3>The First Way</h3>.
+                <div class="pict">
+                    <p>You can enroll in a course through the course catalog by clicking on the link next to the course title. On the page that opens, click on the "Enroll" button.</p>
+                    <img src="openedu/4.png" width="400">
+                </div>
+                <h3>The second way</h3>.
+                <div class="pict">
+                    <p>You can also use the convenient search system on the <a href = "openedu.ru">openedu.ru</a> website to enroll in the course of your choice.</p>
+                    <img src="openedu/5.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="openedu/6.png" width="400">
+                    <p>Select the course you want.</p>
+                </div>
+                <div class="pict">
+                    <p>On the page that opens, click on the "Enroll" button.</p>
+                    <img src="openedu/7.png" width="400">
+                </div>
+                <p class="bold">!Please note that the enrollment period for the course and the deadline for some assignments is limited, so you must enroll during the first week of the semester to complete all assignments and receive credit for the course! Once enrollment is complete, the course will not be available to add new students.
+                    If you cannot find the course you are looking for or have difficulties with registration, send an e-mail to <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. In your e-mail, please include your full name, group number, university, e-mail and course title. Don't forget to describe the problem you are having.
+                </p>
+            </div>
+            <div id="3p" class="text 3t">
+                <h1>Tracking Progress</h1>.
+                <div class="pict">
+                    <p>Click on "My Profile," then go to "My Courses."</p>
+                    <img src="openedu/8.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="openedu/9.png" width="400">
+                    <p>Click the "Go to course materials" button. <span class="bold">Click the "Go to course materials" button.
+                        !Please note, once you have enrolled in the course, the technical support staff will add you to the correct group. After that you will get access to all course materials except for the final control! If this group is not specified, you should write an e-mail to <a href = "openedu@urfu.ru">openedu@urfu.ru</a>. In your letter, please specify your full name, academic group, course name, mail with which you are registered on openedu.ru and a description of the problem!
+                        </span>
+                    </p>
+                </div>
+                <div class="pict">
+                    <p>In the course, you will study the lecture material, complete assessment tasks and pass a final control (proctoring).</p>
+                    <img src="openedu/10.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="openedu/11.png" width="400">
+                    <p>Remember that graded assignments are time-limited. This means that you must have a score of at least 40% on each type of assignment in the grade column by the closing date listed on the Open Materials Schedule page.
+                        After the deadlines have passed, you will not be able to complete your assignments. You can check the number of points you have earned in the "Progress" section.
+                    </p>
+                </div>
+                <div class="pict">
+                    <p>If you have any questions while taking the online course, you can always ask them in the Discussions section. Please be detailed, including the section, topic, and unit of the course in which the question arose.</p>
+                    <img src="openedu/12.png" width="400">
+                </div>
+                <p>The final course grade is made up of three components: course progress, exam score, and proctoring status. The proctoring status can be found on the Progress page.
+            </div>
+            <div id="4p" class="text 4t">
+                <h1>Summary testing</h1>.
+                <p>The deadlines for the final control are determined by the order for the session. The schedule of exams and the document with the order is published 2 weeks before the start of the online session. <a href = "https://inf-online.urfu.ru/ru/grafik-ehkzamenov/">Exam schedule</a>.</p>
+                <h3>Summary testing on courses from partner universities</h3>
+                <ol>
+                    <ul><a href ="https://openedu.ru/proctoring-rules-itmoproctor/">Instructions</a> for passing ITMO course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Instrukcija_MGU_vesna_2022.docx">Instructions</a> for passing MSU course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Examus_Instrukcija_Asinkhronnyi_proktoring.pdf">Instruction</a> on passing the certification of MISIS courses.</ul>
+                    <ul><a href="https://openedu.ru/proctoring-manual-itmoproctor/">Instructions</a> for passing MIFI course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Examus_Instrukcija_Asinkhronnyi_proktoring.pdf">Instruction</a> on passing the MIPT course evaluations.</ul>
+                    <ul><a href="https://elearning.hse.ru/examsertsforuni">Instruction</a> on passing the certification on the courses of the National Research University Higher School of Economics.</ul>
+                    <ul><a href="https://openedu.ru/proctoring-manual-itmoproctor/">Instructions</a> for passing the certification of SPbPU (Politech) courses.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/examus_spbgu.pdf">Instructions</a> for passing the SPBSU course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/examus_async_tumgu.pdf">Instruction</a> for passing the TyumSU course evaluations.</ul>
+                    <ul><a href="https://inf-online.urfu.ru/fileadmin/user_upload/site_21245/manual/Instrukcija_TGU_asinkhron.pdf">Instruction</a> for TSU course evaluations.</ul>
+                </ol>
+                <h3>Summary control on UrFU courses</h3>
+                <p>To successfully pass the final test, you need to install the latest version of the ITMOproctor app and read the instructions for using it:</p>
+                <p>Link to the app: <a href="https://itmoproctor.openedu.ru/dist/">youk!</a>;</p>
+                <p>Link to instructions: <a href="https://openedu.ru/proctoring-manual-itmoproctor/">knock!"</a>;</p>
+                <p><a href="https://vk.com/video-196169577_456239027">Video instructions</a> for enrolling in the UrFU final control.</p>
+                <h5>To pass the final test, you need to know the following:</h5>
+                <div class="pict">
+                    <p>Before you start your course, make sure you do not belong to the "default" group. Information about your group is available in the course card on the <a href="http://openedu.ru/">openedu.ru</a> website in the "My Courses" section.</p>
+                    <img src="openedu/13.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="openedu/14.png" width="400">
+                    <p>Make sure the deadline for the final test in your course has not yet passed.<a href="https://inf-online.urfu.ru/ru/grafik-ehkzamenov/">Exam Schedule</a>. UrFU students are required to take the "Final Exam (UrFU)."</p>
+                </div>
+                <div class="pict">
+                    <p>The number of slots for test enrollment is limited. There are no additional slots or extensions to the deadlines for the final test within the session.
+                        <span class="bold">!Don't put off your appointment until the last days! </span> When you sign up for a slot, the ITMOproctor app shows the local time based on your location. If you have changed the time on your computer and now it does not match your local time, you should refer to the time displayed in the lower left corner of the ITMOproctor app. Recording and delivery will take place in accordance with it.
+                    <img src="openedu/15.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="openedu/16.png" width="400">
+                    <p>Before starting the final test, make sure your webcam and microphone are working correctly. Check the video and audio quality in the ITMOproctor app (click on "Test" in the interface menu). Your voice should be clear and your face should be distinguishable in the video. <span class="bold">!If your microphone is part of a headset, DO NOT wear headphones during the Final Exam! </span></p>
+                </div>
+                <div class="proctorinfo">
+                    <p>Check your personal details in<a href="https://sso.openedu.ru/realms/openedu/account/">profile</a>. They must match your student ID. In ITMOproctor you will need to take a photo of the document (student ID card) or upload a pre-made photo of the document.</p>
+                    <p>Please note that your profile must include the student's corporate email address in the @urfu.me domain. If you provide a different email address, you will not receive a grade for the exam or the course as a whole.</p> <p>Any other email address will be used.
+                    <p>In a workspace demonstration:
+                        <ol>
+                            <ul>Show the surface on which your computer or laptop sits.</ul>
+                            <ul>Use a mirror to show off your computer screen and the space around it.</ul>.
+                            <ul>If there is a second monitor, show that it is disconnected from the computer and turned off.</ul>
+                            <ul>Space around the workstation to make sure there are no unauthorized people.</ul>
+                            <ul>If the camera is built in, it is possible to use a mirror that can be used to show the surroundings.</ul>
+                        </ol>
+                    </p>
+                    <p>The exam is administered asynchronously. It may take up to 5 business days to validate the test.
+                        If it is not technically possible to take the final control from home, you should contact the directorate of your institute in advance with a request to provide a workplace that meets the conditions for passing the proctoring.
+                    </p>
+                    <p>Please note:
+                        <ol>
+                            <ul>It is the student's responsibility not to leave the webcam's line of sight during testing.</ul>
+                            <ul>The microphone shall not be switched off during the test and its sensitivity shall be within normal limits.</ul>
+                            <ul>The student may not use the assistance of third parties during testing.</ul>
+                            <ul>The student may not give access to the computer to outside parties during testing. All programs capable of recording and broadcasting what is happening on the desktop must be turned off.</ul>.
+                            <ul>Students may not: engage in conversations with third parties, speak questions aloud, use reference materials (books, cheat sheets, notes, course materials not on the test page), use cell phones, pagers, calculators, tablets, headphones, check answers against progress changes.</ul>.
+                            <ul>The student agrees that systematic averted gaze to the edge of the monitor/beyond the screen may be considered as use of supplementary materials.</ul>.
+                        </ol>
+                    </p>
+                    <p>Students are allowed:
+                        <ol>
+                            <ul>Use only the computer on which the test is being taken.</ul>
+                            <ul>When taking tests in technical subjects, use the engineering calculator built into the operating system (Start > Calculator).</ul>
+                            <ul>If a draft is allowed to be used in the course, it must be demonstrated to the camera before the exam that it is clean. At the end of the exam, that no final control questions have been written on the draft.
+                            <ul>When using the headset as a microphone, headphones must not be worn. The turned on headset must be placed on the desk next to the keyboard.</ul>
+                            <ul>International students are allowed to use a translator (only <a href="translate.google.com">translate.google.com</a> or <a href="translate.yandex.ru">translate.yandex.ru</a>) on the adjacent tab while taking the final exam.</ul>
+                        </ol>
+                    </p>
+                    <p>If the test is rejected by the proctor, the user has the right to request an additional attempt to take the final control.</p>
+                    <p class="bold">!In the event that the rule violations described above are found, the attempt is considered used and the test is considered unsuccessful!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="buttonScript.js"></script>
+<script src="globalSearchscript.js"></script>
+<div class="footer">
+    <div class="techsupport"><p>Tech support address:example@mail.com</p></div>
+</div>
+</body>
+</html>.
