@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>LearnLink: final tests</title>
+    <link rel="stylesheet" href="styles/finalexam.css">
+</head>
+<body>
+    <div class="header">
+        <div class="part1">
+            <a class="headerbutton" href='#footer'>About us</a>
+            <a class="headerbutton" href='indexeng.html'>Home</a>
+        </div>
+        <div class="logopart">
+            <img src="logos/logo.svg">
+        </div>
+        <div class="part3">
+            <div class="search">
+                <input class="search" id="globalsearchInput" placeholder="Search">
+                <div class="globalSearch" id="blockToGlobalSearch">
+                    <div class="globallink hidden">
+                        <a href="indexeng.html">Home</a>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="lkurfueng.html">Creating a student's personal account</a>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="regemaileng.html">Corporate mail registration</a>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="courseregistereng.html">Registration on platforms</a>
+                        <p class="hidden">OpenEdu</p>
+                        <p class="hidden">exam1</p>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="courseenrolleng.html">Course enrollment</a>
+                        <p class="hidden">OpenEdu</p>
+                        <p class="hidden">exam1</p>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="finalexamOpenEdueng.html">Final testing</a>
+                        <p class="hidden">Proctoring</p>
+                    </div>
+                </div>
+            </div>
+            <div class="language">
+                <a class="headerbutton" id="LangButton">Язык</a>
+                <div id="LangMenu" class="lang hidden">
+                    <div>
+                        <a href="finalexamOpenEdu.html">Русский</a>
+                    </div>
+                    <div>
+                        <a href="fibalexamOpenEdueng.html">English</a>
+                    </div>
+                    <div>    
+                        <a href="finalexamOpenEduch.html">汉语</a>
+                    </div>
+                    <div>   
+                        <a href="finalexamOpenEduarab.html">اللغة العربية</a>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>Final tests on the platform «Открытое образование» (OpenEdu)</h1>
+    <div class="mid">
+        <div class="step">
+            <h3>Final testing on courses of UrFU, ITMO, MEPhI, Politech (SPbPU).*</h3>
+            <p style="font-size: 0.7vw;"><a href="#1">Guidelines for testing at other institutions of higher education</a>*</p>
+            <p> Install the app <a href="https://itmoproctor.openedu.ru/dist/">ITMOproctor</a> on your computer.</p>
+            <p>Sign in with your openedu account.</p>
+            <img class="sq" src="finalexam/OpenEdu/itmoproctor/1.png">
+            <p>To sign up for an exam, click on the desired course. In the bottom right corner, click on the button «Запланировать».</p>
+            <img class="sp" src="finalexam/OpenEdu/itmoproctor/2.png">
+            <p>Select a convenient day and time (local time is given). The exam status will then change to «Запланировано».</p>
+            <img class="sq" src="finalexam/OpenEdu/itmoproctor/3.png">
+            <p>Before the exam, you can check the camera, microphone and screen demo. To do this, go to the tab «Меню» and select «Проверка связи».</p>
+            <img class="sq" src="finalexam/OpenEdu/itmoproctor/4.png">
+            <p>Important: if you try to sign up for a proctoring session on the last days of the exam and there are no available slots, then the midterm will be considered a failure to pass and will be treated as a no-show. Missing the scheduled time is also considered a no-show.</p>
+            <h4> Passing the exam in asynchronous mode.</h4>
+            <p> When it's time for the next exam, a button will appear in the lower right hand corner «Подключиться», click on it.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/5.png">
+            <p>In the window that opens, you will see your image, a screen demo, and instructions. If everything is OK, the status will be displayed «Соединение установлено». If not, check the camera and microphone settings and press the button «Переподключиться».</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/6.png">
+            <p>You will then need to follow the link and get a unique code.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/7.png">
+            <p>The resulting code should be compared with the code in the appendix ITMOproctor.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/8.png">
+            <p>You will then need to demonstrate an uncluttered desk and surroundings to confirm there are no unauthorised people in the room.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/9.png">
+            <p>Take a photo where your face is well lit and completely in the frame.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/10.png">
+            <p>Take a picture of a document (student ID, passport).</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/11.png">
+            <p>Important: the proctoring system window can be minimised, but not closed.</p>
+            <p>After completing the exam, log in to ITMOproctor and click on the button «Завершить экзамен», if it did not end automatically.</p>
+            <p>The status of the exam will then change to «Ожидает оценку». Once the exam process has been verified (this can take up to 5 days), the status will change to «Принят» or «Прерван» depending on whether or not there have been irregularities in the examination.</p>
+            <p style="font-size: 0.8vw;"><a href="https://openedu.ru/proctoring-manual-itmoproctor/?ysclid=lwartn9s4s630243511">Reference</a> graphic sources.</p>
+        </div>
+        <div id="1" class="step">
+            <h3>Final testing for MISIS, MIPT, SPbSU, TyumSU, TSU courses.</h3>
+            <p> Install the app <a href="https://app.examus.net/">examus</a> on your computer.</p>
+            <p>Log in with your account openedu.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/1.png">
+            <p>Allow access to the camera, microphone and your screen.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/2.png">
+            <p>From the list of your exams, select an exam.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/3.png">
+            <p>A window will then open with the slots for proctoring. Confirm your selection and the slot will turn orange.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/4.png">
+            <p>Important: Record access at least 48 hours prior to the scheduled exam. The window with slots shows the time in the time zone of Moscow. Moscow (UTC+3)</p>
+            <p>When it is time for the next exam, open examus and click on the button «Начать».</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/5.png">
+            <p>Familiarise yourself with the test procedure, user and equipment requirements, confirm you agree to the rules and click on «Продолжить».</p>
+            <p>Check your computer's settings and click «Продолжить».</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/6.png">
+            <p>In the new window, read the recommendations and follow them. From the drop-down list, select Examus and click «Продолжить».</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/7.png">
+            <p>Take a snapshot of the document and click «Отправить». Wait for the proctor's instructions.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/8.png">
+            <p>When the proctor allows you to start the button will appear «Начать тестирование».</p>
+            <p>When done, click on «Завершить сдачу экзамена»</p>
+            <p>Important: if you have any problems, please write to the platform support «Открытое образование» at student@openedu.ru or contact tech support «Экзамус» at support@examus.net.</p>
+            <p style="font-size: 0.8vw;"><a href="https://openedu.ru/examus-manual/?ysclid=lwawziu0ix229522238">Reference</a>graphic sources.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="f3">    
+            <p>About us:</p>
+            <p>We, the Digital Dream Team, just like many first-year students, found it difficult to register for online courses, so we created an online service to help students access courses quickly and easily.</p>
+        </div> 
+        <div class="f2"><p class="footertext">Tech support address: learnlink.help@gmail.com</p></div>
+        <div class="f1">
+            <p>Изображение от <a href="https://ru.freepik.com/free-psd/kawaii-cat-illustration_150887512.htm#fromView=search&page=1&position=44&uuid=8897025f-b0f3-4623-877a-33a0bd13f8c8">Freepik</a></p>
+            <p>Изображение от <a href="https://ru.freepik.com/free-psd/kawaii-cat-illustration_150887500.htm">Freepik</a></p>
+            <p>Изображение от <a href="https://ru.freepik.com/free-psd/kawaii-cat-frame-illustration_150887558.htm">Freepik</a></p>
+        </div>
+    </div>
+    <script src="scripts/globalSearchscript.js"></script>
+    <script src="scripts/buttonScript.js"></script>
+</body>
+</html>
