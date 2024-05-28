@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="chinese">
+<head>
+    <meta charset="UTF-8">
+    <title>LearnLink: 期末测试</title>
+    <link rel="stylesheet" href="styles/finalexam.css">
+</head>
+<body>
+    <div class="header">
+        <div class="part1">
+            <a class="headerbutton" href='#footer'>关于我们</a>
+            <a class="headerbutton" href='indexch.html#'>主页</a>
+        </div>
+        <div class="logopart">
+            <img src="logos/logo.svg">
+        </div>
+        <div class="part3">
+            <div class="search">
+                <input class="search" id="globalsearchInput" placeholder="网站搜索">
+                <div class="globalSearch" id="blockToGlobalSearch">
+                    <div class="globallink hidden">
+                        <a href="indexch.html">主页</a>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="lkurfuch.html">创建学生个人账户</a>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="regemailch.html">公司邮件注册</a>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="courseregisterch.html">平台注册</a>
+                        <p class="hidden">OpenEdu</p>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="courseenrollch.html">课程注册</a>
+                        <p class="hidden">OpenEdu</p>
+                    </div>
+                    <div class="globallink hidden">
+                        <a href="finalexamOpenEduch.html">最终测试</a>
+                    </div>
+                </div>
+            </div>
+            <div class="language">
+                <a class="headerbutton" id="LangButton">Язык</a>
+                <div id="LangMenu" class="lang hidden">
+                    <div>
+                        <a href="finalexamOpenEdu.html">Русский</a>
+                    </div>
+                    <div>
+                        <a href="fibalexamOpenEdueng.html">English</a>
+                    </div>
+                    <div>    
+                        <a href="finalexamOpenEduch.html">汉语</a>
+                    </div>
+                    <div>   
+                        <a href="finalexamOpenEduarab.html">اللغة العربية</a>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>在平台上进行期末测试 «Открытое образование» (OpenEdu)</h1>
+    <div class="mid">
+        <div class="step">
+            <h3>对 UrFU、ITMO、MEPhI、Politech (SPbPU) 课程进行最终测试.*</h3>
+            <p style="font-size: 0.7vw;"><a href="#1">其他高等教育机构测试指南</a>*</p>
+            <p> 安装应用程序 <a href="https://itmoproctor.openedu.ru/dist/">ITMOproctor</a> 在您的电脑上.</p>
+            <p>使用您的账户登录 openedu.</p>
+            <img class="sq" src="finalexam/OpenEdu/itmoproctor/1.png">
+            <p>要报名参加考试，请单击所需的课程。点击右下角的按钮 «Запланировать».</p>
+            <img class="sp" src="finalexam/OpenEdu/itmoproctor/2.png">
+            <p>选择一个方便的日期和时间（提供当地时间）。然后考试状态将变为 «Запланировано».</p>
+            <img class="sq" src="finalexam/OpenEdu/itmoproctor/3.png">
+            <p>考试前，您可以检查摄像头、麦克风和屏幕演示。为此，请转到选项卡 «Меню» и 选择一个项目 «Проверка связи».</p>
+            <img class="sq" src="finalexam/OpenEdu/itmoproctor/4.png">
+            <p>重要提示：如果您在考试的最后几天试图报名参加监考课程，但没有空位，那么期中考试将被视为缺考。错过预定时间也视为缺考。.</p>
+            <h4> 以异步模式通过考试.</h4>
+            <p> 下一次考试时间到时，右下角会出现一个按钮 «Подключиться», 点击它.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/5.png">
+            <p>在打开的窗口中，您将看到图像、屏幕演示和说明。如果一切正常，将显示 “连接已建立 ”状态。如果没有，请检查摄像头和麦克风设置，然后点击按钮 «Переподключиться».</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/6.png">
+            <p>然后，您需要按照链接获取一个唯一代码.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/7.png">
+            <p>生成的代码应与附录中的代码进行比较 ITMOproctor.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/8.png">
+            <p>然后，您需要展示桌面和周围环境的整洁，以确认房间内没有未经授权的人员.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/9.png">
+            <p>拍摄一张光线充足、脸部完全在画面中的照片.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/10.png">
+            <p>给证件拍照（学生证、护照）.</p>
+            <img class="rt" src="finalexam/OpenEdu/itmoproctor/11.png">
+            <p>重要提示：监考系统窗口可以最小化，但不能关闭。</p>
+            <p>完成考试后，请访问 ITMOproctor 并按下按钮 «Завершить экзамен», 如果没有自动结束.</p>
+            <p>然后，考试状态将变为 “待评估”。一旦考试过程得到验证（可能需要 5 天时间），状态将变为 «Принят» 或 «Прерван» 取决于考试中是否存在违规行为.</p>
+            <p style="font-size: 0.8vw;"><a href="https://openedu.ru/proctoring-manual-itmoproctor/?ysclid=lwartn9s4s630243511">参考资料</a> 图片来源.</p>
+        </div>
+        <div id="1" class="step">
+            <h3>对 MISIS、MIPT、SPbSU、TyumSU、TSU 课程进行最终测试.</h3>
+            <p> 安装应用程序 <a href="https://app.examus.net/">examus</a> 在您的电脑上.</p>
+            <p>使用您的账户登录 openedu.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/1.png">
+            <p>允许访问摄像头、麦克风和屏幕.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/2.png">
+            <p>从考试列表中选择一项考试.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/3.png">
+            <p>随后将打开一个窗口，显示监考时段。确认您的选择，插槽将变为橙色.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/4.png">
+            <p>重要提示：至少在预定考试前 48 小时记录访问时间。带插槽的窗口显示莫斯科时区的时间。莫斯科 (UTC+3)</p>
+            <p>下一次考试时，打开 examus并按下按钮 «Начать».</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/5.png">
+            <p>熟悉测试程序、用户和设备要求，确认您同意相关规则，然后点击 «Продолжить».</p>
+            <p>检查计算机设置，然后单击 «Продолжить».</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/6.png">
+            <p>在新窗口中，阅读建议并遵照执行。从下拉列表中选择 Examus 并按下 «Продолжить».</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/7.png">
+            <p>给文件拍一张快照，然后单击 «Отправить». 等待监考老师的指示.</p>
+            <img class="examusimg" src="finalexam/OpenEdu/examus/8.png">
+            <p>当监考老师允许您开始时，将出现以下按钮 «Начать тестирование».</p>
+            <p>完成后，点击 «Завершить сдачу экзамена»</p>
+            <p>重要：如果您有任何问题，请致函平台支持部门 «Открытое образование» 于 student@openedu.ru 或技术支持 «Экзамус» 于 support@examus.net.</p>
+            <p style="font-size: 0.8vw;"><a href="https://openedu.ru/examus-manual/?ysclid=lwawziu0ix229522238">参考资料</a> 图片来源.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="f3">    
+            <p>关于我们:</p>
+            <p>我们，Digital Dream Team，以及许多新生，发现很难注册在线课程，因此我们创建了一个在线服务，帮助学生快速、轻松地获取课程。</p>
+        </div> 
+        <div class="f2"><p class="footertext">技术支持地址: learnlink.help@gmail.com</p></div>
+        <div class="f1">
+            <p>图片来自 <a href="https://ru.freepik.com/free-psd/kawaii-cat-illustration_150887512.htm#fromView=search&page=1&position=44&uuid=8897025f-b0f3-4623-877a-33a0bd13f8c8">Freepik</a></p>
+            <p>图片来自 <a href="https://ru.freepik.com/free-psd/kawaii-cat-illustration_150887500.htm">Freepik</a></p>
+            <p>图片来自 <a href="https://ru.freepik.com/free-psd/kawaii-cat-frame-illustration_150887558.htm">Freepik</a></p>
+        </div>
+    </div>
+    <script src="scripts/globalSearchscript.js"></script>
+    <script src="scripts/buttonScript.js"></script>
+</body>
+</html>
